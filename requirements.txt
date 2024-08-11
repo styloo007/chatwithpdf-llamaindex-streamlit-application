@@ -1,0 +1,5 @@
+llama-index
+llama-index-embeddings-huggingface
+llama-index-llms-huggingface
+youtube_transcript_api
+requests
