@@ -17,7 +17,8 @@ Settings.llm = HuggingFaceInferenceAPI(
     model_name="mistralai/Mistral-7B-Instruct-v0.2",
     tokenizer_name="mistralai/Mistral-7B-Instruct-v0.2",
     context_window=3900,
-    token=os.getenv("HF_TOKEN"),
+    #REPLACE YOUR_TOKEN with your Hugging Face token
+    token=os.getenv("YOUR_TOKEN"),
     max_new_tokens=1000,
     generate_kwargs={"temperature": 0},
 )
